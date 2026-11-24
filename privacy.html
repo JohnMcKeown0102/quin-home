@@ -12,13 +12,16 @@
 </head>
 <body>
 <h1>Quin privacy policy</h1>
-<p>Last updated: 23 November 2026</p>
+<p>Last updated: 24 November 2026</p>
 <h2>What Quin accesses</h2>
-<p>With the account owner's permission, Quin reads calendar events (title, start and end time) from Google Calendar,
+<p>With the account owner's permission, Quin reads calendar events from Google Calendar,
 using the read-only scope <code>calendar.events.readonly</code>. It cannot create, edit or delete events.</p>
+<p>Google sends Quin the full details of each event. Quin uses the title, the start and end time, the description (only to
+choose which family member's label to show) and whether the event was cancelled or declined. It ignores the rest.</p>
 <h2>How the data is used</h2>
-<p>Events for the next seven days are shown on a tablet inside the home. They are kept in memory for a few minutes and
-then fetched again. They are not stored in a database, not written to logs, and not used for anything else.</p>
+<p>The titles, times and labels of events for the next seven days are shown on the household's own paired tablet and phone.
+Descriptions are not shown. A recent copy is kept in memory so the display keeps working if Google cannot be reached.
+Events are not stored in a database, not written to logs, and not used for anything else.</p>
 <h2>Where the data goes</h2>
 <p>Nowhere. Quin runs on a Raspberry Pi on the home network. Calendar data is not sent to any other service, not sold,
 not shared and not used for advertising or to train AI models. Use of information received from Google APIs follows the
